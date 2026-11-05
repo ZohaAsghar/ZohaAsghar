@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Zoha Asghar, AI/ML Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070d1c"/>
+      <stop offset="0.55" stop-color="#0d1a36"/>
+      <stop offset="1" stop-color="#12254d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="14" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="14" fill="url(#glow)"/>
+
+  <!-- Neural network motif -->
+  <g stroke="url(#accent)" stroke-opacity="0.35" stroke-width="1.2" fill="none">
+    <!-- layer 1 -> layer 2 -->
+    <line x1="820" y1="90"  x2="950" y2="60"/>
+    <line x1="820" y1="90"  x2="950" y2="120"/>
+    <line x1="820" y1="90"  x2="950" y2="180"/>
+    <line x1="820" y1="90"  x2="950" y2="240"/>
+    <line x1="820" y1="150" x2="950" y2="60"/>
+    <line x1="820" y1="150" x2="950" y2="120"/>
+    <line x1="820" y1="150" x2="950" y2="180"/>
+    <line x1="820" y1="150" x2="950" y2="240"/>
+    <line x1="820" y1="210" x2="950" y2="60"/>
+    <line x1="820" y1="210" x2="950" y2="120"/>
+    <line x1="820" y1="210" x2="950" y2="180"/>
+    <line x1="820" y1="210" x2="950" y2="240"/>
+    <!-- layer 2 -> layer 3 -->
+    <line x1="950" y1="60"  x2="1080" y2="90"/>
+    <line x1="950" y1="60"  x2="1080" y2="150"/>
+    <line x1="950" y1="60"  x2="1080" y2="210"/>
+    <line x1="950" y1="120" x2="1080" y2="90"/>
+    <line x1="950" y1="120" x2="1080" y2="150"/>
+    <line x1="950" y1="120" x2="1080" y2="210"/>
+    <line x1="950" y1="180" x2="1080" y2="90"/>
+    <line x1="950" y1="180" x2="1080" y2="150"/>
+    <line x1="950" y1="180" x2="1080" y2="210"/>
+    <line x1="950" y1="240" x2="1080" y2="90"/>
+    <line x1="950" y1="240" x2="1080" y2="150"/>
+    <line x1="950" y1="240" x2="1080" y2="210"/>
+    <!-- output -->
+    <line x1="1080" y1="90"  x2="1150" y2="150"/>
+    <line x1="1080" y1="150" x2="1150" y2="150"/>
+    <line x1="1080" y1="210" x2="1150" y2="150"/>
+  </g>
+
+  <g fill="#0d1a36" stroke="url(#accent)" stroke-width="2">
+    <circle cx="820" cy="90"  r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="0s"   repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="150" r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="210" r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></circle>
+
+    <circle cx="950" cy="60"  r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="1.0s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="120" r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="180" r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="240" r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="1.9s" repeatCount="indefinite"/></circle>
+
+    <circle cx="1080" cy="90"  r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="150" r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="210" r="9"><animate attributeName="fill-opacity" values="1;0.3;1" dur="3.2s" begin="2.7s" repeatCount="indefinite"/></circle>
+  </g>
+  <circle cx="1150" cy="150" r="12" fill="url(#accent)">
+    <animate attributeName="r" values="12;15;12" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Text -->
+  <text x="70" y="120" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff" letter-spacing="1">Zoha Asghar</text>
+  <rect x="72" y="140" width="96" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="72" y="188" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600" fill="#e2e8f0">AI / ML Engineer</text>
+  <text x="72" y="228" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#94a3b8" letter-spacing="0.6">Machine Learning  ·  NLP  ·  Generative AI  ·  Speech AI</text>
+  <text x="72" y="258" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#64748b" letter-spacing="0.4">Lahore, Pakistan</text>
+</svg>
